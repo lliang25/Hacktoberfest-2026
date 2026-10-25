@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.cursor/index/
+
+# Generated output
+.streamlit/secrets.toml
